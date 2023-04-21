@@ -17,13 +17,17 @@
 <body class="m-0">
 
 	<div class="container mx-auto">
-		<div class="flex justify-center">
-			<h1 class="m-5 p-5 ">Tyler Schnerch: Software Engineer</h1>
-			<img class="h-20 w-20 m-2" src="/images/headshot_place_holder.png">
+		<div
+			class="flex justify-center bg-amber-400  border-2 rounded-md border-cyan-400 subpixel-antialiased">
+			<h1
+				class="m-5 p-5 font-mono text-xl flex items-center justify-center underline decoration-cyan-400 decoration-2 underline-offset-4">Tyler
+				Schnerch: Software Engineer</h1>
+			<img class="h-40 w-40 m-2 rounded-md"
+				src="/images/headshot_place_holder.png">
 		</div>
-		
-		<header class="">
-			<nav class="flex justify-between align-items-center">
+		<div>
+			<div class="m-1 p-1 font-mono text-lg flex items-center justify-center"> Fullstack development Skillset: Java, Python, Javascript(React) </div>
+			<nav class="flex justify-between align-items-center m-1 p-5">
 				<div>
 					<a class="p-12 m-5" href="#"> Portfolio</a>
 				</div>
@@ -34,7 +38,8 @@
 					<a class="p-12 m-5" href="#"> Contact</a>
 				</div>
 			</nav>
-		</header>
+
+		</div>
 	</div>
 
 </body>
