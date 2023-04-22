@@ -9,9 +9,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("Hello");
+		
 		return "index.jsp";
 	}
 	
-
+	@RequestMapping("/about")
+	public String about() {
+		
+		return "about.jsp";
+	}
+	@RequestMapping("/resume")
+	public String resume() {
+		
+		return "resume.jsp";
+	}
+	
+	@RequestMapping("/contact")
+	public String contact() {
+		
+		return "contact.jsp";
+	}
+	
 }
